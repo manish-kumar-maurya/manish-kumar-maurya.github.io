@@ -6,24 +6,11 @@
     border-width: 2px;
 }
 
-.btn-outline-primary:hover{
-    background: #3ebcb3;
-    border-color: #3ebcb3;
-}
-
 .card{
     margin-bottom: 32px;
     border:0;
-    box-shadow: 0 0px 0.6px rgba(0.2, 0.2, 0.2, 0.2);
-    border-radius: 4px;
-    transition: 0.2s all ease-in-out;
+    border-radius: 3px;
 }
-
-.card:hover, .card:active, .card:focus {
-    border: 3px solid rgb(9, 170, 170);
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
-}
-
 
 .footcontent{
     background:white;
@@ -39,90 +26,18 @@
 .footconnect li{
     display: inline;
 }
+
 .ff li a{
     font-size: 50px;
-    
     color: rgb(126, 110, 110);
 };
+
 .footconnect li a{
     color: rgb(126, 110, 110);
 }
+
 .footcontent .contain{
     text-align: center;
-}
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 30%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.sidebar-button-active{
-
-  padding: 6px 4px 14px 6px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-
-    padding-right: 4px;
-    border-right: 5px solid rgb(9, 170, 170);
-}
-.leftside {
-    box-shadow: 0 4px 8px rgba(0, 0, 0.2, 0.1);
-    height: 100%;
-    width: 5%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-
-.left-navbar{
-    width: 80%;
-    padding-left: 8px;
-}
-
-.sidenav {
-    height: 100%;
-    width: 4%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(255, 255, 255);
-  overflow-x: hidden;
-  padding-top: 20px;
-    box-shadow: 0 1px 3px rgba(0.2, 0.2, 0.2, 0.2);
-}
-
-.sidenav a {
-
-  padding: 12px 4px 12px 6px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.main {
-  margin-left: 160px; 
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
 .card-text{
